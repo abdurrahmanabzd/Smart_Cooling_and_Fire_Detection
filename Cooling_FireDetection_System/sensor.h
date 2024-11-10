@@ -13,7 +13,7 @@ void initializeSensors();
 void readSensors();
 
 float readTemp(int thermistorPin);
-int readUV();
+float readUV(int uvSensorPin);
 void detectGas();
 void detectFlame();
 
